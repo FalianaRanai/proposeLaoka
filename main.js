@@ -291,7 +291,7 @@ const initHenaOmbyCardBody = () => {
   html += `<ul class="list-group">`;
 
   for (let i = 0; i < listeLaokaHenaOmby.length; i++) {
-    html += `<li class="list-group-item">${listeLaokaHenaKisoa[i].nom}</li>`;
+    html += `<li class="list-group-item">${listeLaokaHenaOmby[i].nom}</li>`;
   }
 
   html += `</ul>`;
