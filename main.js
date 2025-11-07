@@ -263,5 +263,62 @@ const onSubmit = () => {
   }
 };
 
+const initHenaKisoaCardBody = () => {
+  const element = document.getElementById("henaKisoaCardBody");
+
+  element.innerHTML = "";
+
+  let html = ``;
+
+  html += `<ul class="list-group">`;
+
+  for (let i = 0; i < listeLaokaHenaKisoa.length; i++) {
+    html += `<li class="list-group-item">${listeLaokaHenaKisoa[i].nom}</li>`;
+  }
+
+  html += `</ul>`;
+
+  element.innerHTML = html;
+};
+
+const initHenaOmbyCardBody = () => {
+  const element = document.getElementById("henaOmbyCardBody");
+
+  element.innerHTML = "";
+
+  let html = ``;
+
+  html += `<ul class="list-group">`;
+
+  for (let i = 0; i < listeLaokaHenaOmby.length; i++) {
+    html += `<li class="list-group-item">${listeLaokaHenaKisoa[i].nom}</li>`;
+  }
+
+  html += `</ul>`;
+
+  element.innerHTML = html;
+};
+
+const initHenaAutresCardBody = () => {
+  const element = document.getElementById("henaAutresCardBody");
+
+  element.innerHTML = "";
+
+  let html = ``;
+
+  html += `<ul class="list-group">`;
+
+  for (let i = 0; i < listeLaokaHenaAutres.length; i++) {
+    html += `<li class="list-group-item">${listeLaokaHenaAutres[i].nom}</li>`;
+  }
+
+  html += `</ul>`;
+
+  element.innerHTML = html;
+};
+
 initSelectHena();
 initSelectPeriode();
+initHenaKisoaCardBody();
+initHenaOmbyCardBody();
+initHenaAutresCardBody();
