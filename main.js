@@ -36,7 +36,7 @@ const listeLaokaHenaKisoa = [
     periode: [listePeriode[0], listePeriode[1]],
   },
   {
-    nom: "Tsesisy",
+    nom: "Tsiasisa",
     periode: [listePeriode[0], listePeriode[1]],
   },
   {
@@ -49,6 +49,18 @@ const listeLaokaHenaKisoa = [
   },
   {
     nom: "Poireaux",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Tsiasisa sy voatavo",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Anamadinika",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Sofin-kisoa",
     periode: [listePeriode[0], listePeriode[1]],
   },
 ];
@@ -72,6 +84,26 @@ const listeLaokaHenaOmby = [
   },
   {
     nom: "Tsaramaso",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Kabaro",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Tsiasisa sy voatavo",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Akoho rony sy sakamalao",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Ovy rony",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Lelan'omby",
     periode: [listePeriode[0], listePeriode[1]],
   },
 ];
@@ -124,6 +156,30 @@ const listeLaokaHenaAutres = [
   {
     nom: "Araran'akoho",
     periode: [listePeriode[1]],
+  },
+  {
+    nom: "Akoho rony sy sakamalao",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Toton-kena sy Karoty",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Saucisses sy anan-drano",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Henabaolina sauce",
+    periode: [listePeriode[0], listePeriode[1]],
+  },
+  {
+    nom: "Macaroni",
+    periode: [listePeriode[1]],
+  },
+  {
+    nom: "Anana sy totomboanjo",
+    periode: [listePeriode[0], listePeriode[1]],
   },
 ];
 
