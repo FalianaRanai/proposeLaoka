@@ -113,6 +113,18 @@ const listeLaokaHenaAutres = [
     nom: "Saucisses",
     periode: [listePeriode[1]],
   },
+  {
+    nom: "Antinkena akoho",
+    periode: [listePeriode[1]],
+  },
+  {
+    nom: "Antinkena omby",
+    periode: [listePeriode[1]],
+  },
+  {
+    nom: "Araran'akoho",
+    periode: [listePeriode[1]],
+  },
 ];
 
 const initSelectHena = () => {
