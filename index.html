@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div
+      class="container vh-100 d-flex justify-content-center align-items-center flex-column"
+    >
+      <div class="card mb-3" style="min-width: 500px">
+        <div class="card-header bg-primary text-white">Laoka</div>
+        <div class="card-body">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Hena</label>
+            <select
+              class="form-select"
+              aria-label="Default select example"
+              id="selectHena"
+            >
+              <option selected>Select Hena</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Période</label>
+            <select
+              class="form-select"
+              aria-label="Default select example"
+              id="selectPeriode"
+            >
+              <option selected>Select période</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="card-footer d-flex justify-content-end">
+          <button class="btn btn-primary" onclick="onSubmit()">Valider</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
