@@ -1,6 +1,6 @@
 const listeHena = ["Kisoa", "Omby", "Autres"];
 
-const listePeriode = ["Ataondro", "Ariva", "Tontolo andro"];
+const listePeriode = ["Atoandro", "Hariva", "Tontolo andro"];
 
 const listeLaokaHenaKisoa = [
   {
